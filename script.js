@@ -19,7 +19,7 @@ async function send(){
     body:JSON.stringify({
       model:"llama3-8b-8192",
       messages:[
-        {role:"system",content:"You are a helpful assistant."},
+        {role:"system",content:"You are Asha Bogorian Assistant, a smart, friendly, modern AI chatbot that helps users with clear and simple answers."},
         {role:"user",content:text}
       ]
     })

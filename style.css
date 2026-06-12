@@ -22,6 +22,12 @@ body{
   color:white;
 }
 
+.top small{
+  display:block;
+  font-size:11px;
+  color:#aaa;
+}
+
 .top img{
   width:35px;
   height:35px;
